@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+a {
+    color: var(--bs-card-title-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #f1f3f6;
+}

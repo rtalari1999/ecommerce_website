@@ -1,0 +1,33 @@
+<!-- <div class="row">
+    <div class="col-3 mb-3" *ngFor="let product of productList1">
+        <div class="card" >
+            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-finish-select-202209-6-1inch-blue?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1661026582322" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="#" class="card-link">{{product.title}}</a></h5>
+              <span  class="card-subtitle mb-2 text-body-secondary"><h1>{{product.cost}}</h1><h6>M.R.P: ₹13,999 (29% off)</h6></span>
+              <h6 class="card-subtitle mb-2 text-body-secondary"> M.R.P: ₹13,999 (29% off)</h6>
+              <p class="card-text">Get it by <span class="text-body-secondary">{{product.delivery_date}}</span></p>
+              <p class="card-subtext text-body-secondary"> FREE Delivery by Amazon</p>
+            </div>
+          </div>
+    </div>
+</div> -->
+<div class="container-fluid">
+<div class="card mb-3 ">
+    <div class="row g-0 mb-3" *ngFor="let product of productList.data">
+      <div class="col-md-4" >
+        <img src={{product.productImageUrl}} class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+            <h5 class="card-title"><a href="#" class="card-link">{{product.productDescription}}</a></h5>
+            <span  class="mb-2 text-body-secondary">{{product.productPrice}}</span>
+            <span>M.R.P: ₹13,999 (29% off)</span>
+            <p class="card-text text-body-secondary">Get it by <span >{{product.delivery_date}}</span></p>
+            <p class="card-subtext text-body-secondary"> FREE Delivery by Ashok IT</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+

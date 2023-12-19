@@ -1,0 +1,65 @@
+<app-header></app-header>
+<div class="container top-60 position-relative background-color-white">
+
+  <div class="row">
+    <div class="col-7">
+      <div class="card mb-3 h-450">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://5.imimg.com/data5/SELLER/Default/2023/9/346254818/AT/RX/ZW/800983/iphone-15-pro-max-256-gb-black-titanium.jpg"
+              class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{selectedItem.productName}}</h5>
+              <p class="card-text">
+                <small class="text-body-warning bg-body-secondary"><i class="bi bi-star-fill text-warning"></i><i
+                    class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i
+                    class="bi bi-star-fill text-warning"></i> {{selectedItem?.reviews?.count}} Reviews &
+                  {{selectedItem?.rating}} Ratings</small>
+
+              </p>
+              <p class="card-text"><span class="fw-bold p-2">{{selectedItem?.productPriceAfterDiscount |
+                  currency:'INR'}}</span>
+                <small class="text-body-secondary text-decoration-line-through">{{selectedItem?.productPrice |
+                  currency:'INR'}}</small><span class="text-success p-1">12% OFF</span>
+              </p>
+              <p class="card-text "><small class="bg-success-subtle">Expected delivery by Tommorow</small></p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <div>
+                <button type="button" class="btn btn-outline-warning m-1" (click)="placeOrder()">Place Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-5">
+      <div class="card h-450">
+        <div class="card-body">
+          <h5 class="card-title  mb-4">PRICE DETAILS</h5>
+          <div class="container text-start">
+            <div class="row mb-4">
+              <div class="col">Price (1 item)</div>
+              <div class="col text-success">− ₹8,901</div>
+            </div>
+            <div class="row mb-4 p-2">
+              <div class="col">Delivery Charges</div>
+              <div class="col"> <span class="text-decoration-line-through m-1">₹40</span><span
+                  class="text-success">Free</span></div>
+            </div>
+            <div class="row mb-4 p-2">
+              <div class="col">
+                <h5>Total Amount</h5>
+              </div>
+              <div class="col">
+                <h5>{{selectedItem.productPrice | currency: 'INR'}}</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

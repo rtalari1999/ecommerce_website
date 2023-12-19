@@ -1,0 +1,32 @@
+<div class="card h-250 mb-1" *ngFor="let product of productList">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="{{product?.productImageUrl}}" class="img-fluid rounded-start h-248" alt="{{product.productName}}">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <a class="card-title fw-medium" (click)="selectItem(product)">
+                    {{product?.productName}}
+                </a>
+                <div><small class="text-body-warning bg-body-secondary"><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> {{product?.reviews?.count}} Reviews & {{product?.rating}} Ratings</small>
+                </div>
+                
+                <ul class="list-group m-1">
+                    <li class=" list-group-item list-group-item-border-none">
+                        <p class="card-text"><span class="fw-bold p-2">{{product?.productPriceAfterDiscount | currency:'INR'}}</span>
+                            <small class="text-body-secondary text-decoration-line-through">{{product?.productPrice | currency:'INR'}}</small><span class="text-success p-1">{{product.productDiscount}}% OFF</span></p>
+                    </li>
+                   
+                    <li class="bullet-list text-body-secondary">{{product?.specifications?.rom}}</li>
+                    <li class="bullet-list text-body-secondary">{{product?.specifications?.display_size}}</li>
+                    <li class="bullet-list text-body-secondary">{{product?.specifications?.camera}}</li>
+                    <li class="bullet-list text-body-secondary">{{product?.specifications?.processor}}</li>
+                    <li class="bullet-list text-body-secondary">{{product?.specifications?.warranty}}</li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="!productList">
+    <h5>No Records Found</h5>
+</div>

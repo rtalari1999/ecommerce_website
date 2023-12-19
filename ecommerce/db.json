@@ -1,0 +1,555 @@
+{
+  "productList": [
+    {
+      "id": 1,
+      "productId": 246,
+      "productSku": "sdss345",
+      "productName": "TECNO Phantom V Fold 5G Black 12GB RAM,256GB Storage",
+      "productPrice": 80000,
+      "productShortName": "TECNO Phantom V Fold",
+      "productDescription": "TECNO Phantom V Fold 5G Black (12GB RAM,256GB Storage) | The First Full Size Fold | LTPO AMOLED Display | 4nm D9000+ Fast Processor",
+      "createdDate": "2023-12-01T20:49:27.813",
+      "deliveryTimeSpan": "1 week",
+      "categoryId": 1,
+      "productImageUrl": "https://m.media-amazon.com/images/I/61v2S36O42L._SX679_.jpg",
+      "categoryName": "Mobile",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": 2,
+      "productId": 253,
+      "productSku": "ddjnwk",
+      "productName": "Samsung Galaxy Tab S9 FE+ 31.50 cm (12.4 inch) Display",
+      "productPrice": 65000,
+      "productShortName": "Samsung Galaxy Tab S9",
+      "productDescription": "Samsung Galaxy Tab S9 FE+ 31.50 cm (12.4 inch) Display, RAM 12 GB, ROM 256 GB Expandable, S Pen in-Box, WiFi+5G, IP68 Tablet, Gray.",
+      "createdDate": "2023-12-13T19:59:19.46",
+      "deliveryTimeSpan": "4 week",
+      "categoryId": 3,
+      "productImageUrl": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61dk-WQhOWL._SX679_.jpg",
+      "categoryName": "Tablet",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 6
+    },
+    {
+      "id": 3,
+      "productId": 247,
+      "productSku": "4335435",
+      "productName": "Samsung Galaxy S22 Ultra 5G Burgundy, 12GB, 256GB Storage",
+      "productPrice": 85000,
+      "productShortName": "Samsung Galaxy",
+      "productDescription": "Samsung Galaxy S22 Ultra 5G (Burgundy, 12GB, 256GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "createdDate": "2023-12-01T20:51:12.503",
+      "deliveryTimeSpan": "2 week",
+      "categoryId": 1,
+      "productImageUrl": "https://m.media-amazon.com/images/I/71J8tz0UeJL._SX679_.jpg",
+      "categoryName": "Mobile",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": 4,
+      "productId": 248,
+      "productSku": "dskdjk7",
+      "productName": "Oneplus Open (Emerald Dusk, 16GB RAM, 512GB Storage)",
+      "productPrice": 140000,
+      "productShortName": "Oneplus Open Emerald Dusk",
+      "productDescription": "Dual ProXDR displays; Cover Display: 6.31” 2K resolution, Super Fluid AMOLED at 1440 Hz - Shielded by Ceramic Guard Dual-Displays: 7.82” 2K resolution, Flexi-fluid AMOLED 89.6% screen-to-body ratio at 1440 Hz - Shielded by Ultra Thin Glass",
+      "createdDate": "2023-12-01T20:55:32.76",
+      "deliveryTimeSpan": "3 week",
+      "categoryId": 1,
+      "productImageUrl": "https://m.media-amazon.com/images/I/71pKVhll1IL._SX679_.jpg",
+      "categoryName": "Mobile",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": 5,
+      "productId": 180,
+      "productSku": "687678676",
+      "productName": "Lenovo Tab P12| 12.7 Inch| Octa-Core Processor",
+      "productPrice": 27000,
+      "productShortName": "Lenovo Tab P12",
+      "productDescription": "Lenovo Tab P12| 12.7 Inch| 8 GB, 128 GB Expandable| 3K Display| 10200 mAh Battery| JBL Quad Speakers with Dolby Atmos|Wi-Fi 6 Certified| Octa-Core Processor|13 MP Front Camera (Storm Grey, ZACH0070IN)",
+      "createdDate": "2023-11-25T20:14:32.947",
+      "deliveryTimeSpan": "3 week",
+      "categoryId": 3,
+      "productImageUrl": "https://m.media-amazon.com/images/I/61ps0pf7SrL._SX679_.jpg",
+      "categoryName": "Tablet",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": 6,
+      "productId": 252,
+      "productSku": "iphones",
+      "productName": "iphone15 pro",
+      "productPrice": 120000,
+      "productShortName": "i15 PRO",
+      "productDescription": "bnvghdvg",
+      "createdDate": "2023-12-12T13:24:23.477",
+      "deliveryTimeSpan": "2 days",
+      "categoryId": 15,
+      "productImageUrl": "https://5.imimg.com/data5/SELLER/Default/2023/9/346254818/AT/RX/ZW/800983/iphone-15-pro-max-256-gb-black-titanium.jpg",
+      "categoryName": "iphone 15",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": 7,
+      "productId": 171,
+      "productSku": "HP Chromebook X360",
+      "productName": "HP Chromebook X360,Intel Celeron N4120,14-Inch (35.6 Cm)",
+      "productPrice": 32000,
+      "productShortName": "HP Chromebook X360",
+      "productDescription": "4-core Intel Celeron N4120】4 threads and 4MB L2 cache boost productivity with blazing-fast processing speeds. Intel UHD graphics deliver stunning visuals for an enhanced viewing experience. 【Upgraded memory and storage】4GB LPDDR4 RAM allows you to switch between demanding applications effortlessly. 64GB eMMC storage creates room for all your files and data with ample storage space. 【Touchscreen】The 14-inch, HD, 220-nit, touchscreen, and micro-edge display is innovatively engineered to rotate 360° so that you can view your screen from all angles with pristine clarity.",
+      "createdDate": "2023-11-25T14:12:56.09",
+      "deliveryTimeSpan": "1 weak",
+      "categoryId": 4,
+      "productImageUrl": "https://m.media-amazon.com/images/I/619nJDbUDkL._SX679_.jpg",
+      "categoryName": "Laptop",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 12
+    },
+    {
+      "id": 8,
+      "productId": 219,
+      "productSku": "Fujifilm instax Wide ",
+      "productName": "Fujifilm instax Wide 300 Instant Camera (Black)",
+      "productPrice": 6999,
+      "productShortName": "Fujifilm instax Wide 300 ",
+      "productDescription": "The Fujifilm instax WIDE 300 is our largest format instax camera Built in flash & fill in flash mode Film size 108 (w) x 86 (H) cm.Twice as wide as instax mini film Improved ease of use of the camera includes a tripod socket, focal zoom dial and user friendly interface Two mode focusing, normal (0.9 m-3 m)and landscape (3 m plus) Programmed electronic shutter release, 1/64 sec - 1/200 sec",
+      "createdDate": "2023-11-28T12:58:50.707",
+      "deliveryTimeSpan": "8 Days",
+      "categoryId": 2,
+      "productImageUrl": "https://m.media-amazon.com/images/I/91hVbXwen0L._SX679_.jpg",
+      "categoryName": "Camera",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 20
+    },
+    {
+      "id": 9,
+      "productId": 230,
+      "productSku": "Fujifilm Instax ",
+      "productName": "Fujifilm Instax Wide 300 Instant Camera- White",
+      "productPrice": 6999,
+      "productShortName": "Fujifilm Instax",
+      "productDescription": "The Fujifilm instax WIDE 300 is our largest format instax camera Built in flash & fill in flash mode Film size 108 (w) x 86 (H) cm. Twice as wide as instax mini film Improved ease of use of the camera includes a tripod socket, focal zoom dial and user friendly interface Two mode focusing, normal (0.9 m-3 m) and landscape (3 m plus) Programmed electronic shutter release, 1/64 sec - 1/200 sec",
+      "createdDate": "2023-11-29T12:39:58.413",
+      "deliveryTimeSpan": "5 days",
+      "categoryId": 2,
+      "productImageUrl": "https://m.media-amazon.com/images/I/71wvQU297aL._SX679_.jpg",
+      "categoryName": "Camera",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": 9,
+      "productId": 190,
+      "productSku": "Canon",
+      "productName": "Canon ae-1 SLR 35mm Film Camera",
+      "productPrice": 30000,
+      "productShortName": "Canon ae-1 SLR",
+      "productDescription": "35mm SLR (Single-Lens-Reflex) camera with electronically controlled AE (Automatic Exposure) and focal plane shutter.\nCanon FD series interchangeable lenses with full aperture metering and AE coupling. Canon FL series with stopped-down metering.\nStandard lenses for the Canon AE are Canon FD 55mm f/1.2 S.S.C, Canon FD 50mm f/1.4 S.S.C, Canon FD 50mm f/1.8 S.C.",
+      "createdDate": "2023-11-26T13:06:45.743",
+      "deliveryTimeSpan": "5 days",
+      "categoryId": 2,
+      "productImageUrl": "https://m.media-amazon.com/images/I/71ceHroKWpL._SX679_.jpg",
+      "categoryName": "Camera",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": 10,
+      "productId": 178,
+      "productSku": "7671622",
+      "productName": "ASUS Vivobook 14, Intel Core i3-1115G4 11th Gen",
+      "productPrice": 32990,
+      "productShortName": "ASUS Vivobook",
+      "productDescription": "ASUS Vivobook 14, Intel Core i3-1115G4 11th Gen, 14\" (35.56 cms) FHD, Thin and Light Laptop (8GB/512GB SSD/Windows 11/Office 2021/Transparent Silver/1.60 kg), X1400EA-EK322WS",
+      "createdDate": "2023-11-25T18:24:18.823",
+      "deliveryTimeSpan": "2 week",
+      "categoryId": 4,
+      "productImageUrl": "https://m.media-amazon.com/images/I/616TNXcZcHL._AC_UY327_FMwebp_QL65_.jpg",
+      "categoryName": "Laptop",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": 11,
+      "productId": 215,
+      "productSku": "Apple iPhone 14 ",
+      "productName": "Apple iPhone 14 Plus (128 GB) - Blue",
+      "productPrice": 70000,
+      "productShortName": "Apple iPhone 14 ",
+      "productDescription": "bout this item 16.95 cm (6.7-inch) Super Retina XDR display Advanced camera system for better photos in any light Cinematic mode now in 4K Dolby Vision up to 30 fps Action mode for smooth, steady, handheld videos Vital safety technology — Crash Detection calls for help when you can’t All-day battery life and up to 26 hours of video playback Industry-leading durability features with Ceramic Shield and water resistance",
+      "createdDate": "2023-11-28T12:08:37.56",
+      "deliveryTimeSpan": "1 weak",
+      "categoryId": 1,
+      "productImageUrl": "https://m.media-amazon.com/images/I/61BGE6iu4AL._SX679_.jpg",
+      "categoryName": "Mobile",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": 12,
+      "productId": 216,
+      "productSku": "Apple iPhone 13 Mini",
+      "productName": "Apple iPhone 13 Mini (256 GB) - Green",
+      "productPrice": 80000,
+      "productShortName": "Apple iPhone 13 Mini",
+      "productDescription": "13 cm (5.4-inch) Super Retina XDR display Cinematic mode adds shallow depth of field and shifts focus automatically in your videos Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording A15 Bionic chip for lightning-fast performance",
+      "createdDate": "2023-11-28T12:23:42.357",
+      "deliveryTimeSpan": "1 weak",
+      "categoryId": 1,
+      "productImageUrl": "https://m.media-amazon.com/images/I/61cMQeVEGKL._SX679_.jpg",
+      "categoryName": "Mobile",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": 13,
+      "productId": 254,
+      "productSku": "jbjjhvm",
+      "productName": "Apple 2022 iPad Air M1 Chip 10.9-inch, Wi-Fi, 256GB",
+      "productPrice": 72500,
+      "productShortName": "Apple 2022 iPad Air M1",
+      "productDescription": "27.69 cm (10.9-inch) Liquid Retina display1 with True Tone, P3 wide colour and an anti-reflective coating Apple M1 chip with Neural Engine 12MP Wide camera 12MP Ultra Wide front camera with Center Stage Up to 256GB of storage",
+      "createdDate": "2023-12-13T20:01:24.997",
+      "deliveryTimeSpan": "3 week",
+      "categoryId": 3,
+      "productImageUrl": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61-3k7FKQRL._SX679_.jpg",
+      "categoryName": "Tablet",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": 14,
+      "productId": 14,
+      "productSku": "Raju Talari",
+      "productName": "Apple 2022 iPad Air M1 Chip 10.9-inch, Wi-Fi, 256GB",
+      "productPrice": 72500,
+      "productShortName": "Apple 2022 iPad Air M1",
+      "productDescription": "27.69 cm (10.9-inch) Liquid Retina display1 with True Tone, P3 wide colour and an anti-reflective coating Apple M1 chip with Neural Engine 12MP Wide camera 12MP Ultra Wide front camera with Center Stage Up to 256GB of storage",
+      "createdDate": "2023-12-13T20:01:24.997",
+      "deliveryTimeSpan": "3 week",
+      "categoryId": 3,
+      "productImageUrl": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61-3k7FKQRL._SX679_.jpg",
+      "categoryName": "Tablet",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 8
+    }
+  ],
+  "placedOrders": [
+    {
+      "id": "4",
+      "productId": "248",
+      "productSku": "dskdjk7",
+      "productName": "Oneplus Open (Emerald Dusk, 16GB RAM, 512GB Storage)",
+      "productPrice": "140000",
+      "productShortName": "Oneplus Open Emerald Dusk",
+      "productDescription": "Dual ProXDR displays; Cover Display: 6.31” 2K resolution, Super Fluid AMOLED at 1440 Hz - Shielded by Ceramic Guard Dual-Displays: 7.82” 2K resolution, Flexi-fluid AMOLED 89.6% screen-to-body ratio at 1440 Hz - Shielded by Ultra Thin Glass",
+      "createdDate": "2023-12-01T20:55:32.76",
+      "deliveryTimeSpan": "3 week",
+      "categoryId": "1",
+      "productImageUrl": "https://m.media-amazon.com/images/I/71pKVhll1IL._SX679_.jpg",
+      "categoryName": "Mobile",
+      "reviews": {
+        "title": "User Tested",
+        "rated": 4.2,
+        "comment": "Fantastic performance, Super Speed",
+        "count": "2,5676"
+      },
+      "rating": "2,34,587",
+      "specifications": {
+        "rom": "128 GB ROM",
+        "display_size": "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "camera": "12MP + 12MP | 12MP Front Camera",
+        "processor": "A15 Bionic Chip, 6 Core Processor Processor",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      },
+      "productDiscount": 4
+    },
+    {
+      "id": "2",
+      "productId": "253",
+      "productSku": "ddjnwk",
+      "productName": "Samsung Galaxy Tab S9 FE+ 31.50 cm (12.4 inch) Display",
+      "productPrice": "65000",
+      "productShortName": "Samsung Galaxy Tab S9",
+      "productDescription": "Samsung Galaxy Tab S9 FE+ 31.50 cm (12.4 inch) Display, RAM 12 GB, ROM 256 GB Expandable, S Pen in-Box, WiFi+5G, IP68 Tablet, Gray.",
+      "createdDate": "2023-12-13T19:59:19.46",
+      "deliveryTimeSpan": "4 week",
+      "categoryId": "3",
+      "productImageUrl": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61dk-WQhOWL._SX679_.jpg",
+      "categoryName": "Tablet",
+      "reviews": "[object Object]",
+      "rating": "2,34,587",
+      "specifications": "[object Object]",
+      "productDiscount": "6",
+      "productPriceAfterDiscount": "10833.333333333334"
+    },
+    {
+      "id": "1",
+      "productId": "246",
+      "productSku": "sdss345",
+      "productName": "TECNO Phantom V Fold 5G Black 12GB RAM,256GB Storage",
+      "productPrice": "80000",
+      "productShortName": "TECNO Phantom V Fold",
+      "productDescription": "TECNO Phantom V Fold 5G Black (12GB RAM,256GB Storage) | The First Full Size Fold | LTPO AMOLED Display | 4nm D9000+ Fast Processor",
+      "createdDate": "2023-12-01T20:49:27.813",
+      "deliveryTimeSpan": "1 week",
+      "categoryId": "1",
+      "productImageUrl": "https://m.media-amazon.com/images/I/61v2S36O42L._SX679_.jpg",
+      "categoryName": "Mobile",
+      "reviews": "[object Object]",
+      "rating": "2,34,587",
+      "specifications": "[object Object]",
+      "productDiscount": "4",
+      "productPriceAfterDiscount": "20000"
+    }
+  ],
+  "addtoCart": [
+    {
+      "id": "2",
+      "productId": "253",
+      "productSku": "ddjnwk",
+      "productName": "Samsung Galaxy Tab S9 FE+ 31.50 cm (12.4 inch) Display",
+      "productPrice": "65000",
+      "productShortName": "Samsung Galaxy Tab S9",
+      "productDescription": "Samsung Galaxy Tab S9 FE+ 31.50 cm (12.4 inch) Display, RAM 12 GB, ROM 256 GB Expandable, S Pen in-Box, WiFi+5G, IP68 Tablet, Gray.",
+      "createdDate": "2023-12-13T19:59:19.46",
+      "deliveryTimeSpan": "4 week",
+      "categoryId": "3",
+      "productImageUrl": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61dk-WQhOWL._SX679_.jpg",
+      "categoryName": "Tablet",
+      "reviews": "[object Object]",
+      "rating": "2,34,587",
+      "specifications": "[object Object]",
+      "productDiscount": "6",
+      "productPriceAfterDiscount": "10833.333333333334"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "password": "RRRRTTTT",
+      "email": "rr@gmail.com",
+      "firstName": "RRRR",
+      "lastName": "TTTT",
+      "id": 1
+    }
+  ]
+}

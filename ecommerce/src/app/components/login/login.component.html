@@ -1,0 +1,27 @@
+<div class="card" style="color:white;margin: auto;width: 500px;padding: 68px;top:60px">
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/login">LogIn</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/register">Register</a>
+        </li>
+    </ul>
+    <form [formGroup]="profileForm" (ngSubmit)="login()">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label text-black">Email</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email"  formControlName="email">
+            <div *ngIf="profileForm.get('email')?.invalid && profileForm.get('email')?.touched" class="text-danger">
+              Please enter a valid email.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label text-black">Password</label>
+            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Password"  formControlName="password">
+            <div *ngIf="profileForm.get('password')?.invalid && profileForm.get('password')?.touched" class="text-danger">
+                Please enter a valid password.
+              </div>
+          </div>
+          <button type="submit" class="btn btn-danger" [disabled]="profileForm.invalid">Submit</button>
+        </form>
+</div>

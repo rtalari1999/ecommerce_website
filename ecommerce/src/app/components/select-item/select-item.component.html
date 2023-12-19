@@ -1,0 +1,80 @@
+<app-header></app-header>
+<div class="top-60 position-relative">
+    <div class="card mb-1 ">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2023/9/346254818/AT/RX/ZW/800983/iphone-15-pro-max-256-gb-black-titanium.jpg"
+                    class="img-fluid rounded-start " alt="...">
+                <div class="button-cart">
+                    <button type="button" class="btn btn-outline-warning m-1" (click)="addToCart()">Add To Cart</button>
+                    <button type="button" class="btn btn-outline-warning m-1" (click)="buyNow()">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        {{selectItem.productName}}
+                    </h5>
+                    <p class="card-text">
+                        <small class="text-body-warning bg-body-secondary"><i
+                                class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i
+                                class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                            {{selectItem?.reviews?.count}} Reviews & {{selectItem?.rating}} Ratings</small>>
+
+                    </p>
+                    <p class="card-text"><span class="fw-bold p-2">{{selectItem?.productPriceAfterDiscount |
+                            currency:'INR'}}</span>
+                        <small class="text-body-secondary text-decoration-line-through">{{selectItem?.productPrice |
+                            currency:'INR'}}</small><span class="text-success p-1">12% OFF</span>
+                    </p>
+                    <p class="card-text "><small class="bg-success-subtle">Expected delivery by Tommorow</small></p>
+                    <h5 class="fw-bold">Available offers</h5>
+                    <p class="m-1"><span class="fw-medium">Bank Offer 5%</span> Cashback on Flipkart Axis Bank Card<span
+                            class="text-primary m-1">T&C</span></p>
+                    <p><span class="fw-medium">Special Price</span> Get extra ₹8901 off (price inclusive of
+                        cashback/coupon)<span class="text-primary m-1">T&C</span></p>
+                    <p>Buy this product and Get Extra ₹75 Off on Select Room Heaters<span
+                            class="text-primary m-1">T&C</span></p>
+                    <p>EMI starting from ₹2,145/monthView Plans</p>
+
+                    <div class="card mb-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h5>Product Description</h5>
+                            </li>
+                            <li class="list-group-item">
+                                <p>{{selectItem.productDescription}}</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h6><span class="text-primary">View All Features</span></h6>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card mb-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h5>Specifications</h5>
+                            </li>
+                            <li class="list-group-item">
+                                <p>{{selectItem?.productDescription}}</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h6><span class="text-primary m-1">Read More</span></h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card mb-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h5>Ratings & Reviews</h5>
+                                <h6>{{selectItem?.reviews?.title}}</h6>
+                                <p>{{selectItem?.reviews?.comment}}</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

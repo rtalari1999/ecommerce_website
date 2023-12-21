@@ -1,0 +1,136 @@
+<div class="container">
+    <div class="card mb-2">
+        <div class="card-body">
+            <h5 class="card-title ">DELIVERY ADDRESS</h5>
+           
+                <div class="d-flex flex-row">
+                    <div class="p-2 fw-medium">Ashok</div>
+                    <div class="p-2 bg-secondary-subtle">Home</div>
+                    <div class="p-2 fw-medium">8688099266</div>
+                </div>
+                <div class="d-flex flex-row mb-3">
+                    <div class="p-1">1/1-2, Ameerpet, Hyderabad, Telangana - <span class="fw-medium">500090</span></div>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-outline-warning justify-content-center m-1">Deliver Here</button>
+                    <button type="button" class="btn btn-outline-primary justify-content-center m-1">Edit</button>
+                </div>
+           
+        </div>
+    </div>
+
+    <!-- Add new Address-->
+    
+
+    <div class="card ">
+        <div class="card-body" *ngIf="!addAddress" (click)="addAddressDetails()">
+            <h6 class="card-title text-primary fw-bold"><i class="bi bi-plus gap-2 m-1"></i>ADD A NEW ADDRESS</h6>
+        </div>
+        <div class="card-body" *ngIf="addAddress">
+            <h6 class="card-title">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        ADD A NEW ADDRESS
+                    </label>
+                </div>
+            </h6>
+            <div class="row g-2 mb-2">
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="name" class="form-control" id="floatingInputGrid" placeholder="Name">
+                        <label for="floatingInputGrid">Name</label>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="mobile" class="form-control" id="floatingInputGrid"
+                            placeholder="10-digit mobile number">
+                        <label for="floatingInputGrid">10-digit mobile number</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-2 mb-2">
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="pincode" class="form-control" id="floatingInputGrid" placeholder="Pincode">
+                        <label for="floatingInputGrid">Pincode</label>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="Locality">
+                        <label for="floatingInputGrid">Locality</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-floating mb-2">
+                <textarea class="form-control" placeholder="Address (Area and Street)" id="floatingTextarea2"
+                    style="height: 70px"></textarea>
+                <label for="floatingTextarea2">Address (Area and Street)</label>
+            </div>
+            <div class="row g-2 mb-2">
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="city" class="form-control" id="floatingInputGrid" placeholder="City/District/Town">
+                        <label for="floatingInputGrid">City/District/Town</label>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelectGrid">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <label for="floatingSelectGrid">Works with selects</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-2 mb-2">
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="landmark" class="form-control" id="floatingInputGrid"
+                            placeholder="Landmark (Optional)">
+                        <label for="floatingInputGrid">Landmark (Optional)</label>
+                    </div>
+                </div>
+                <div class="col-md ">
+                    <div class="form-floating">
+                        <input type="alternatephone" class="form-control" id="floatingInputGrid"
+                            placeholder="Alternate Phone (Optional)">
+                        <label for="floatingInputGrid">Alternate Phone (Optional)</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>Address Type</p>
+                <div class="d-flex flex-row mb-3">
+                    <div class="p-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Home (All day delivery)
+                            </label>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Work (Delivery between 10 AM - 5 PM)
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row gap-2 mb-3">
+                    <div class="p-2"><button type="button" class="btn btn-outline-warning active">Save and Deliver
+                            Here</button></div>
+                    <div class="p-2 text-primary"><button type="button" class="btn btn-outline-warning"
+                            (click)="cancel()">Cancel</button></div>
+
+                </div>
+            </div>
+        </div>

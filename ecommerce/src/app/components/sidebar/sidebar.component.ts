@@ -15,8 +15,7 @@ export class SidebarComponent {
   constructor(private router: Router, public homeComponent: HomeComponent ){}
   
   getCategoryList(category: string){
-    debugger
-    this.homeComponent.categoryFilter(category);
+    this.router.navigate(["/dashboard"], {queryParams: {category:category}})
   }
 
 

@@ -1,27 +1,97 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 7px;
-    text-decoration: none;
-    margin-left: 24px;
-  }
-
-  li a:hover{
-    background-color: brown;
-  }
-
   .cart-header:hover{
     color: #ffff;
   }
+
+  nav {
+    padding: 0 50PX;
+    width: 100%;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-one {
+    background-color: #ffff;
+    color: red;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .navbar-second {
+    background-color: #002147;
+    color: #fff;
+    height: 50px;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+
+  .left > div + div{
+    margin: 40px;
+  }
+  .right > div {
+    margin: 10px;
+  }
+
+  .left > div:hover,
+  .right > div {
+    transform: all 0.5s;
+  }
+
+  .right > div{
+    margin: 20px;
+  }
+
+  li{
+    list-style: none;
+  }
+  .btn-properties:hover {
+    background-color: #dc3545;
+    border-radius: 0;
+  }
+
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+      
+  }
+
+  .btn-properties{
+    border: none;
+    background-color: #002147;
+  }
+
+  .watsapp-img{
+    font-size: 26px;
+    color: green;
+    margin-left: 12px;
+  }
+  .twitter-img{
+    font-size: 26px;
+    color: #08a0e9;
+    margin-left: 12px;
+  }
+  .facebook-img{
+    font-size: 26px;
+    color:#1877f2 ;
+    margin-left: 12px;
+  }
+  .youtube-img{
+    font-size: 26px;
+    color: #dc3545;
+    margin-left: 12px;
+  }
+
+  .cart:active{
+    background-color: red;
+  }
+  

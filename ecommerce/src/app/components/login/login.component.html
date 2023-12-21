@@ -1,27 +1,42 @@
-<div class="card" style="color:white;margin: auto;width: 500px;padding: 68px;top:60px">
-    <ul class="nav nav-pills nav-fill">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/login">LogIn</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/register">Register</a>
-        </li>
+
+<div class="login login-background">
+  <div class="card" style="margin: auto;width: 390px;padding: 50px; top: 150px;">
+    <h4 class="" >Welcome to Ashokit Cart</h4>
+    <ul class="nav nav-underline mb-3">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/login">LogIn</a>
+      </li>
     </ul>
     <form [formGroup]="profileForm" (ngSubmit)="login()">
-        <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label text-black">Email</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email"  formControlName="email">
-            <div *ngIf="profileForm.get('email')?.invalid && profileForm.get('email')?.touched" class="text-danger">
-              Please enter a valid email.
-            </div>
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="email">
+        <label for="floatingInput">Email address</label>
+        <div *ngIf="profileForm.get('email')?.invalid && profileForm.get('email')?.touched" class="text-danger">
+          Please enter a valid email.
+        </div>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+        <div *ngIf="profileForm.get('password')?.invalid && profileForm.get('password')?.touched" class="text-danger" formControlName="password">
+          Please enter a valid password.
+        </div>
+      </div>
+      <div class="forgotpassword flex mb-2">
+        <div class="left">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+             Remember me
+            </label>
           </div>
-          <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label text-black">Password</label>
-            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Password"  formControlName="password">
-            <div *ngIf="profileForm.get('password')?.invalid && profileForm.get('password')?.touched" class="text-danger">
-                Please enter a valid password.
-              </div>
-          </div>
-          <button type="submit" class="btn btn-danger" [disabled]="profileForm.invalid">Submit</button>
-        </form>
+        </div>
+        <div class="right link-underline-primary"><a href="#" class="link-underline-primary"> Forgot Password?</a></div>
+      </div>
+      <button type="submit" class="btn btn-danger mb-3" style="width: 100%;" [disabled]="profileForm.invalid">Submit</button>
+      <div class="register flex mb-3">
+        <div class="left">Don't have an account? <a href="/register">Register here</a></div>
+      </div>
+    </form>
+  </div>
 </div>

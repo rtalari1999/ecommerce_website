@@ -24,7 +24,7 @@ body {
     background-color: #f1f3f6;
 }
 
-header {
+.header {
     top: 0;
     position: fixed;
     width: 100%;
@@ -39,7 +39,7 @@ header {
 
 section {
     position: relative;
-    top: 60px;
+    top: 1px;
 }
 
 .form-check-input:checked {
@@ -80,10 +80,9 @@ a:hover {
 }
 
 .logo-height {
-    height: 22px;
+    height: 38px;
     align-items: center;
     justify-content: center;
-    margin-top: 11px;
 }
 .top-60{
     top: 60px;

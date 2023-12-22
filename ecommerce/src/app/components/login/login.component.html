@@ -9,24 +9,24 @@
     </ul>
     <form [formGroup]="profileForm" (ngSubmit)="login()">
       <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="email">
-        <label for="floatingInput">Email address</label>
+        <input type="email" class="form-control" id="loginemail" placeholder="name@example.com" formControlName="email">
+        <label for="loginemail">Email address</label>
         <div *ngIf="profileForm.get('email')?.invalid && profileForm.get('email')?.touched" class="text-danger">
           Please enter a valid email.
         </div>
       </div>
       <div class="form-floating mb-3">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Password</label>
-        <div *ngIf="profileForm.get('password')?.invalid && profileForm.get('password')?.touched" class="text-danger" formControlName="password">
+        <input type="password" class="form-control" id="loginpassword" placeholder="Password" formControlName="password">
+        <label for="loginpassword">Password</label>
+        <div *ngIf="profileForm.get('password')?.invalid && profileForm.get('password')?.touched" class="text-danger">
           Please enter a valid password.
         </div>
       </div>
       <div class="forgotpassword flex mb-2">
         <div class="left">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
+            <input class="form-check-input" type="checkbox" value="" id="logincheckbox">
+            <label class="form-check-label" for="logincheckbox">
              Remember me
             </label>
           </div>

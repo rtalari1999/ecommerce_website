@@ -9,37 +9,30 @@
     </ul>
     <form [formGroup]="profileForm" (ngSubmit)="signUp()">
       <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="firstName">
-        <label for="floatingInput">First Name</label>
+        <input type="name" class="form-control" id="signupName" placeholder="name@example.com" formControlName="firstName">
+        <label for="signupName">First Name</label>
         <div *ngIf="profileForm.get('firstName')?.invalid && profileForm.get('firstName')?.touched" class="text-danger">
           Please enter a valid First Name.
         </div>
       </div>
       <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="lastName">
-        <label for="floatingInput">First Name</label>
+        <input type="name" class="form-control" id="signupLastName" placeholder="name@example.com" formControlName="lastName">
+        <label for="signupLastName">Last Name</label>
         <div *ngIf="profileForm.get('lastName')?.invalid && profileForm.get('lastName')?.touched" class="text-danger">
           Please enter a valid Last Name.
         </div>
       </div>
       <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="email">
-        <label for="floatingInput">Email address</label>
+        <input type="email" class="form-control" id="signupEmail" placeholder="name@example.com" formControlName="email">
+        <label for="signupEmail">Email address</label>
         <div *ngIf="profileForm.get('email')?.invalid && profileForm.get('email')?.touched" class="text-danger">
           Please enter a valid email.
         </div>
       </div>
       <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="email">
-        <label for="floatingInput">Email address</label>
-        <div *ngIf="profileForm.get('email')?.invalid && profileForm.get('email')?.touched" class="text-danger">
-          Please enter a valid email.
-        </div>
-      </div>
-      <div class="form-floating mb-3">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Password</label>
-        <div *ngIf="profileForm.get('password')?.invalid && profileForm.get('password')?.touched" class="text-danger" formControlName="password">
+        <input type="password" class="form-control" id="signupPassword" placeholder="Password" formControlName="password">
+        <label for="signupPassword">Password</label>
+        <div *ngIf="profileForm.get('password')?.invalid && profileForm.get('password')?.touched" class="text-danger">
           Please enter a valid password.
         </div>
       </div>
